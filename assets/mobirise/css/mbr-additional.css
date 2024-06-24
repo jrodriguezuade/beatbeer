@@ -1820,3 +1820,38 @@ font-weight: bold;
   font-weight: bold;
 }
 
+.accordion-button{
+  border-radius: 30px;
+  font-weight: bold;
+  background-color: #e6e1e1;
+  border: none;
+}
+
+.accordion-item .accordion-button[aria-expanded=true] {
+  background-color: #e6e1e1;
+  color: black;
+  box-shadow: none;
+}
+
+.accordion-button:focus{
+  box-shadow: none;
+}
+
+.accordion-item{
+  margin-top: 10px;
+  border-radius: 30px;
+  border: none;
+  overflow: hidden;
+}
+
+.accordion-item:first-of-type {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.accordion-item:last-of-type{
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+
